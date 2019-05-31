@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Input</title>
+</head>
+<body>
+    <h1>Share Your Message</h1>
+    <form method="POST" action="https://pphs-forms-intro.herokuapp.com/messages">
+        <label for="name">Name:</label>
+        <input type="text" name="name"required>
+        <Label for="email">Email:</Label>
+        <input type="email" name="email"required>
+        <label for="message">Message:</label>
+        <textarea placeholder="Hello! Enter Your Message Here!" name="message" required></textarea>
+        <button type="submit"> Have A Good Day!</button>
+    </form>
+    
+</body>
+</html>
